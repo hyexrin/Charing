@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    // 배경 색상
+    <color name="colorBg_main">#8c71c3</color>
+    <color name="colorBg_sub">#8062be</color>
+
+    // 요소 색상
+    <color name="btnYellow">#FFC107</color>
+    <color name="btnPurple">#673AB7</color>
+    <color name="btnPurple2">#ADFFFFFF</color>
+    <color name="underLine">#545454</color>
+    <color name="hintColor">#7EA5A5A5</color>
+    <color name="blaaaack">#B02D2F31</color>
+
+    <color name="clear">#00FFFFFF</color>
+</resources>

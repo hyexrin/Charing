@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg_main"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/mainLogo"
+        android:layout_width="215dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_logo" />
+
+    <Button
+        android:id="@+id/btnGoLog"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="16dp"
+        android:text="대여반납\n신청하기"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#C4673AB7"
+        app:layout_constraintEnd_toStartOf="@+id/btnGoInfo"
+        app:layout_constraintStart_toStartOf="@+id/mainLogo"
+        app:layout_constraintTop_toBottomOf="@+id/mainLogo" />
+
+    <Button
+        android:id="@+id/btnGoInfo"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="90dp"
+        android:text="이용방법\n알아보기"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#77BDBDBD"
+        app:layout_constraintEnd_toEndOf="@+id/mainLogo"
+        app:layout_constraintStart_toEndOf="@+id/btnGoLog"
+        app:layout_constraintTop_toBottomOf="@+id/mainLogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

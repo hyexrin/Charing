@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Chairing</string>
+
+    <string name="kakao_app_key">0eb39f905ff7c589f6a9156cf2dbe323</string>
+
+    <string name="homeInform">첫 대여 후 대여시간 안에 정상반납시 24시간 동안은 대여횟수 제한없이 재 대여가 가능합니다.</string>
+    <string name="rentInform1">지금 즉시 휠체어를 이용하시려면 [대여하기] 버튼을 눌러주세요.</string>
+    <string name="rentInform2">현재 위치로 휠체어를 부르시려면 [호출하기] 버튼을 이용해 주세요.</string>
+    <string name="nowRent1">QR 코드를 이용하여 지금 즉시 휠체어를 이용해 보세요.</string>
+    <string name="nowRent2">사용하시려는 휠체어 손잡이에 붙어있는 QR코드를 인식하여 쉽고 빠르게 휠체어를 대여할 수 있습니다.</string>
+    <string name="qr">휠체어에 부착되어 있는 QR코드를 인식해주세요.</string>
+
+    <string name="wheelList1">현재 등록된 휠체어 목록입니다. 각각 아래의 순서로 정보가 보여집니다.</string>
+    <string name="wheelList2">휠체어 코드번호/휠체어 고유번호/휠체어 등록일자/대여상태/고장상태</string>
+
+    <string name="nowSub1">등록하신 휠체어를 이용하신 후, 반납 신청을 통해 반납 해주시기 바랍니다.</string>
+    <string name="nowsub2">하단에 있는 [지금 사용하기] 버튼을 누르시는 즉시 사용이 가능합니다.</string>
+
+    <string name="rentList">대여 휠체어 목록입니다. 반납을 원하실 경우 [반납] 버튼을 눌러주세요.</string>
+
+    <string name="mypage">체어링 어플을 이용하여 더욱 쉽고 빠르게 휠체어를 대여해보세요.</string>
+</resources>
